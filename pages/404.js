@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useEffect } from "react";
 import { useRouter } from "next/router"
+import Layout from "../components/Layout"
 
 const NotFound = () => {
     const router = useRouter();

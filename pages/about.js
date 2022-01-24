@@ -5,7 +5,7 @@ const About = () => {
     return(
         <Layout>
             <div>
-                <p>My name is Monkey D Luffin and I'm gonna be king of the-</p>
+                <p>My name is Monkey D Luffin and Im gonna be king of the-</p>
                 <Link href = "/">
                     Back to home page
                 </Link>

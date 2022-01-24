@@ -34,7 +34,7 @@ const LectureProgressBar = (props) => {
             <Timeline style={{display: "block", position: "absolute", top: 5 + 'em', left: 50 + 'em'}} sx={{transform: "rotate(-90deg)"}}>
                 {
                     info.map(information => (
-                        <TimelineItem>
+                        <TimelineItem key={information.postNo}>
                             <TimelineSeparator>
                             <TimelineDot />
                             <TimelineConnector />
