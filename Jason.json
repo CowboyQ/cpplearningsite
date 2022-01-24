@@ -1,0 +1,19 @@
+[
+	{
+		"id": 0,
+		"type": 1,
+		"postNo": [1, 3, 4]
+	},
+	{
+		"id": 1,
+		"type": 1,
+		"postNo": [2, 5] #sounds good man
+	}
+]
+	{
+		"id": 2,
+		"type": 2,
+		"postNo": 3
+	}
+]
+
