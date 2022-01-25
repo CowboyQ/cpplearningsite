@@ -1,12 +1,13 @@
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+Drogi uczniu!
 
-<h2>I'm wondering if this shit slaps tbh</h2>
+Przedstawiony przed Tobą kurs ma za zadanie pomóc Ci w rozpoczęciu przygody z programowaniem. Jeśli jesteś nowicjuszem i nigdy nie miałeś styczności z pisaniem kodu, nie ma problemu! Pierwsze [X] lekcji zostały poświęcone właśnie Tobie, abyś mógł zrozumieć zasady panujące w programowaniu **bez znajomości kodu!** 
 
-<input type="text"/>
+Poniższy kurs został opracowany z myślą o osobach nie mających żadnego pojęcia o programowaniu, dlatego nie przejmuj się i oddaj się lekturze we własnym tempie 
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+Jeśli jednak miałeś styczność z programowaniem i takie pojęcia jak „instrukcja warunkowa” czy „pętla” nie są dla Ciebie obce, możesz przewinąć kurs do lekcji [X] – to tam rozpoczynamy zabawę z kodem.
 
-I have also tried making a button, so let's see how that works:
+Bez względu na drogę którą wybierzesz: cieszę się, że zdecydowałeś się skorzystać z mojego kursu. Mam nadzieję, że czytanie go sprawi Ci taką samą przyjemność, jaką mnie sprawiło jego pisanie. Liczę też, że obudzi w Tobie tę samą pasję do programowania, jaką poczuło już miliony ludzi na całym świecie  
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+Powodzenia!
+
+	~CowboyQ
