@@ -2,7 +2,6 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import LectureNavbar from "./lectureComponents/LectureNavbar";
 import LectureProgressBar from "./lectureComponents/LectureProgressBar";
-import styles from "../styles/global.css"
 
 
 //import { getPostData } from '../lib/posts';
@@ -15,7 +14,7 @@ const Lecture = ( props ) => {
         <div>
             <LectureNavbar/>
             <LectureProgressBar  len = {props.info}/>
-                <div className={styles.content}>
+                <div className="content">
                     <div dangerouslySetInnerHTML={{ __html: props.content.contentHtml }} />
                 </div>
             <Footer/>
