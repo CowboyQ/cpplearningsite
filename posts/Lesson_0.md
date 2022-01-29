@@ -4,7 +4,7 @@ Przedstawiony przed Tobą kurs ma za zadanie pomóc Ci w rozpoczęciu przygody z
 
 Poniższy kurs został opracowany z myślą o osobach nie mających żadnego pojęcia o programowaniu, dlatego nie przejmuj się i oddaj się lekturze we własnym tempie :)
 
-![kekekeke](./img/smug5.png)
+![kekw](https://firebasestorage.googleapis.com/v0/b/cpplearningsite01.appspot.com/o/img%2Fsmug5.png?alt=media)
 
 Jeśli jednak miałeś styczność z programowaniem i takie pojęcia jak „instrukcja warunkowa” czy „pętla” nie są dla Ciebie obce, możesz przewinąć kurs do lekcji [X] – to tam rozpoczynamy zabawę z kodem.
 
