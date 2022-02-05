@@ -32,12 +32,12 @@ const LectureProgressBar = (props) => {
     const info = props.len;
     return(
         <div style={{height: 10 + 'em', display: "block"}}>
-            <Timeline position="alternate" style={{display: "block", position: "absolute", top: -40 + 'em', left: 42 + 'em', marginTop: 5 + 'em' }} sx={{transform: "rotate(-90deg)", fontSize: "12"}}>
+            <Timeline position="alternate" style={{display: "block", position: "absolute", top: -40 + 'em', left: 45 + 'em', marginTop: 5 + 'em'}} 
+            sx={{transform: "rotate(-90deg)", fontSize: "12", width: 1/8}}>
                 {
                     info.map(information => (
                         <TimelineItem key={information.postNo}>
                             <TimelineSeparator>
-                            
                             <TimelineDot color={props.current <= information.postNo-1 ? 'grey' : 'primary'} />
                             <TimelineConnector />
                             </TimelineSeparator>
@@ -47,15 +47,17 @@ const LectureProgressBar = (props) => {
                                 textAlign: "center",
                                 minWidth: 20,
                                 maxHeight:20
-                                }}>
-                                {information.title}
-                                </TimelineContent>
+                                }}>  
+                            <Link href={'/courses/' + (information.postNo - 1)}>
+                              {information.title}
+                            </Link> 
+                            </TimelineContent>
                         </TimelineItem>
                         ))
                 }
                 <TimelineItem>
                     <TimelineSeparator color='primary'>
-                    <TimelineDot />
+                    <TimelineDot color='secondary' />
                     </TimelineSeparator>
                     <TimelineContent style={{paddingBottom: 10}} sx={{
                         display: "inline-block",
@@ -64,7 +66,7 @@ const LectureProgressBar = (props) => {
                         minWidth: 20,
                         maxHeight:20
                         }}>
-                        Finał
+                        Finał!
                         </TimelineContent>
                 </TimelineItem>
             </Timeline>

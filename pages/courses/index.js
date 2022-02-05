@@ -15,12 +15,11 @@ const Courses = ({ courses }) => {
     return(
         <Layout>
             <div>
-                testing purrposes only
                 {
                     courses.map(course => (
                         <Link href={'/courses/' + course.id} key={course.id}>
                             <a className={styles.single}>
-                                <h3>{course.postNo}</h3>
+                                <h3>{course.title}</h3>
                             </a>
                         </Link>
                     ))

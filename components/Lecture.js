@@ -17,7 +17,7 @@ const Lecture = ( props ) => {
             <div style={{position: "static"}}>
                 <LectureProgressBar  len = {props.info} current = {props.content.id}/>
             </div>
-                <div className="content">
+                <div style={{position: "relative"}} className="content">
                     <div dangerouslySetInnerHTML={{ __html: props.content.contentHtml }} />
                 </div>
             <Footer/>
