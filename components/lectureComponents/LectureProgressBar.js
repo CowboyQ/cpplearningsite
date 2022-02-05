@@ -27,32 +27,34 @@ const LectureProgressBar = (props) => {
         }
       };
       */
-    console.log("Progress " + props.len);
+    console.log("Progress: " + props.len);
+    console.log("Current: " + props.current);
     const info = props.len;
     return(
-        <div style={{height: 5 + 'em', display: "block"}}>
-            <Timeline style={{display: "block", position: "absolute", top: 5 + 'em', left: 50 + 'em'}} sx={{transform: "rotate(-90deg)"}}>
+        <div style={{height: 10 + 'em', display: "block"}}>
+            <Timeline position="alternate" style={{display: "block", position: "absolute", top: -40 + 'em', left: 42 + 'em', marginTop: 5 + 'em' }} sx={{transform: "rotate(-90deg)", fontSize: "12"}}>
                 {
                     info.map(information => (
                         <TimelineItem key={information.postNo}>
                             <TimelineSeparator>
-                            <TimelineDot />
+                            
+                            <TimelineDot color={props.current <= information.postNo-1 ? 'grey' : 'primary'} />
                             <TimelineConnector />
                             </TimelineSeparator>
-                            <TimelineContent style={{paddingBottom: 10}} sx={{
+                            <TimelineContent style={{paddingBottom: -400}} sx={{
                                 display: "inline-block",
                                 transform: "rotate(90deg)",
                                 textAlign: "center",
                                 minWidth: 20,
                                 maxHeight:20
                                 }}>
-                                {information.postNo}
+                                {information.title}
                                 </TimelineContent>
                         </TimelineItem>
                         ))
                 }
                 <TimelineItem>
-                    <TimelineSeparator>
+                    <TimelineSeparator color='primary'>
                     <TimelineDot />
                     </TimelineSeparator>
                     <TimelineContent style={{paddingBottom: 10}} sx={{

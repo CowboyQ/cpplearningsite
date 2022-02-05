@@ -10,10 +10,13 @@ const Lecture = ( props ) => {
     //getNavData( lessonData );
     console.log(Object.keys(props.info).length);
     console.log(props.info);
+    console.log(props.content.id);
     return(
         <div>
             <LectureNavbar/>
-            <LectureProgressBar  len = {props.info}/>
+            <div style={{position: "static"}}>
+                <LectureProgressBar  len = {props.info} current = {props.content.id}/>
+            </div>
                 <div className="content">
                     <div dangerouslySetInnerHTML={{ __html: props.content.contentHtml }} />
                 </div>
