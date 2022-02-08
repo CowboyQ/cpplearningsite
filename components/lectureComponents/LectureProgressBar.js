@@ -38,7 +38,7 @@ const LectureProgressBar = (props) => {
                     info.map(information => (
                         <TimelineItem key={information.postNo}>
                             <TimelineSeparator>
-                            <TimelineDot color={props.current <= information.postNo-1 ? 'grey' : 'primary'} />
+                            <TimelineDot color={props.current <= information.postNo-2 ? 'grey' : 'primary'} />
                             <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent style={{paddingBottom: -400}} sx={{

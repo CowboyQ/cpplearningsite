@@ -13,7 +13,7 @@ const Lecture = ( props ) => {
     console.log(props.content.id);
     return(
         <div>
-            <LectureNavbar/>
+            <Navbar/>
             <div style={{position: "static"}}>
                 <LectureProgressBar  len = {props.info} current = {props.content.id}/>
             </div>
