@@ -144,34 +144,6 @@
 }
 </style>
 
-<script>
-	let as = document.getElementById('answer');
-	console.log("ConsoleLogTestExample01");
-	console.log(document.getElementById('op3'));
-	function testtt(){
-		console.log("ConsoleLogTestExample02");
-		if(document.getElementById('op3').checked){
-			as.innerHTML = "Dokładnie tak! :)";
-			as.style="display:block;";
-			}
-		else{
-			as.innerHTML = "Niestety, nie tym razem! Omawianym kursem będzie C++ :)";
-			as.style="display:block;";
-		}
-	}
-	
-	function showExercises() {
-		console.log("ConsoleLogTestExample03");
-		
-		var x = document.getElementById("exercises");
-		if (x.style.display === "none") {
-			x.style.display = "block";
-		} else {
-			x.style.display = "none";
-		}
-	}
-</script>
-
 Drodzy uczniowie!
 
 Przedstawiony przed wami kurs ma za zadanie pomóc wam w rozpoczęciu przygody z programowaniem. Jeśli jesteście nowicjuszami i nigdy nie mieliście styczności z pisaniem kodu, nie ma problemu! Pierwsze 6 lekcji zostały poświęcone właśnie wam, abyście mogli zrozumieć zasady panujące w programowaniu **bez znajomości kodu!** 
@@ -207,7 +179,14 @@ Pytania te będą wyglądały następująco:
 
 </form>
 
-<button id="baton" class="btn" onclick = "testtt()"><span class="btnspan">Sprawdź!</span></button>
+<button id="baton" class="btn" onclick = "if(document.getElementById('op3').checked){
+			document.getElementById('answer').innerHTML = 'Dokładnie tak! :)';
+			document.getElementById('answer').style='display:block;';
+			}
+		else{
+			document.getElementById('answer').innerHTML = 'Niestety, nie tym razem! Omawianym kursem będzie C++ :)';
+			document.getElementById('answer').style='display:block;';
+		}"><span class="btnspan">Sprawdź!</span></button>
 
 <p id="answer" class="exercise" style="display:none;"></p>
 
