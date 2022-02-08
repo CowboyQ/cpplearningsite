@@ -144,6 +144,29 @@
 }
 </style>
 
+<script>
+	let as = document.getElementById('answer');
+	function testtt(){
+		if(document.getElementById('op3').checked){
+			as.innerHTML = "Dokładnie tak! :)";
+			as.style="display:block;";
+			}
+		else{
+			as.innerHTML = "Niestety, nie tym razem! Omawianym kursem będzie C++ :)";
+			as.style="display:block;";
+		}
+	}
+	
+	function showExercises() {
+		var x = document.getElementById("exercises");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+</script>
+
 Drodzy uczniowie!
 
 Przedstawiony przed wami kurs ma za zadanie pomóc wam w rozpoczęciu przygody z programowaniem. Jeśli jesteście nowicjuszami i nigdy nie mieliście styczności z pisaniem kodu, nie ma problemu! Pierwsze 6 lekcji zostały poświęcone właśnie wam, abyście mogli zrozumieć zasady panujące w programowaniu **bez znajomości kodu!** 
@@ -183,20 +206,6 @@ Pytania te będą wyglądały następująco:
 
 <p id="answer" class="exercise" style="display:none;"></p>
 
-<script>
-	let as = document.getElementById('answer');
-	function testtt(){
-		if(document.getElementById('op3').checked){
-			as.innerHTML = "Dokładnie tak! :)";
-			as.style="display:block;";
-			}
-		else{
-			as.innerHTML = "Niestety, nie tym razem! Omawianym kursem będzie C++ :)";
-			as.style="display:block;";
-		}
-	}	
-</script>
-
 <p>Ponadto, po każdej lekcji do waszej dyspozycji będą zadania do wykonania. Są one oczywiście nieobowiązkowe, ale pamiętajcie: nauka programowania składa się głównie z pisania programów, więc ćwicząc poznane umiejętności staniecie się świetnymi programistami w mgnieniu oka! :)<br/>
 Zadania te będą dostępne po kliknięciu takiego przycisku:</p>
 
@@ -213,18 +222,6 @@ Aliquam congue pharetra metus, id vehicula leo iaculis quis. Curabitur dignissim
 
 Nulla ut pretium ipsum. Aliquam et mauris vel tortor egestas volutpat. Nullam rhoncus commodo sem, at facilisis ante mollis vel. Sed sed dolor vel tellus iaculis posuere nec in nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum libero augue, aliquam in purus a, mattis feugiat justo. Aliquam diam purus, efficitur a metus ut, tincidunt laoreet lorem. Vestibulum nunc ligula, dictum sed enim et, accumsan euismod ante. Nam in elementum elit, quis convallis orci.<br/>
 </div>
-
-<script>
-function showExercises() {
-  var x = document.getElementById("exercises");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
-
 
 Bez względu na drogę którą wybierzecie: cieszę się, że zdecydowaliście się skorzystać z mojego kursu. Mam nadzieję, że czytanie go sprawi wam taką samą przyjemność, jaką mnie sprawiło jego pisanie. Liczę też, że obudzi to w was tę samą pasję do programowania, jaką poczuło już miliony ludzi na całym świecie :)
 
