@@ -179,14 +179,18 @@ Pytania te będą wyglądały następująco:
 
 </form>
 
-<button id="baton" class="btn" onclick = "if(document.getElementById('op3').checked){
-			document.getElementById('answer').innerHTML = 'Dokładnie tak! :)';
-			document.getElementById('answer').style='display:block;';
-			}
-		else{
-			document.getElementById('answer').innerHTML = 'Niestety, nie tym razem! Omawianym kursem będzie C++ :)';
-			document.getElementById('answer').style='display:block;';
-		}"><span class="btnspan">Sprawdź!</span></button>
+<button id="baton" class="btn" onclick = "
+if(document.getElementById('op1').checked || document.getElementById('op2').checked || document.getElementById('op3').checked){
+	if(document.getElementById('op3').checked){
+		document.getElementById('answer').innerHTML = 'Dokładnie tak! :)';
+		document.getElementById('answer').style='display:block;';
+		}
+	else{
+		document.getElementById('answer').innerHTML = 'Niestety, nie tym razem! Omawianym kursem będzie C++ :)';
+		document.getElementById('answer').style='display:block;';
+	}
+}
+"><span class="btnspan">Sprawdź!</span></button>
 
 <p id="answer" class="exercise" style="display:none;"></p>
 
