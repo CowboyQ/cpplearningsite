@@ -214,7 +214,7 @@ Pytania te będą wyglądały następująco:
 <p>Ponadto, po każdej lekcji do waszej dyspozycji będą zadania do wykonania. Są one oczywiście nieobowiązkowe, ale pamiętajcie: nauka programowania składa się głównie z pisania programów, więc ćwicząc poznane umiejętności staniecie się świetnymi programistami w mgnieniu oka! :)<br/>
 Zadania te będą dostępne po kliknięciu takiego przycisku:</p>
 
-<button onclick="showExercises()" class="exerciseButton">Zadania</button>
+<button onclick="console.log('ConsoleLogTestExample03');if (document.getElementById('exercises').style.display === 'none') {document.getElementById('exercises').style.display = 'block';} else {document.getElementById('exercises').style.display = 'none';}" class="exerciseButton">Zadania</button>
 
 <div id="exercises" style="display: none" class="exercise">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor eros tortor. Vivamus sollicitudin bibendum aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rhoncus nisl eu lobortis fringilla. Ut porttitor tempus augue, a condimentum felis consequat eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed volutpat, neque in maximus tincidunt, lacus purus placerat eros, at accumsan quam mauris a arcu.<br/>
