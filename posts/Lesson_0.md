@@ -146,7 +146,10 @@
 
 <script>
 	let as = document.getElementById('answer');
+	console.log("ConsoleLogTestExample01");
+	console.log(document.getElementById('op3'));
 	function testtt(){
+		console.log("ConsoleLogTestExample02");
 		if(document.getElementById('op3').checked){
 			as.innerHTML = "Dokładnie tak! :)";
 			as.style="display:block;";
@@ -158,6 +161,8 @@
 	}
 	
 	function showExercises() {
+		console.log("ConsoleLogTestExample03");
+		
 		var x = document.getElementById("exercises");
 		if (x.style.display === "none") {
 			x.style.display = "block";
