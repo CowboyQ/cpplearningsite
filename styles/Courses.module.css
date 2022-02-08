@@ -8,3 +8,9 @@
 .single:hover{
     border-left: 8px solid #4979ff;
 }
+.title {
+    color: #333;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: large;
+  }

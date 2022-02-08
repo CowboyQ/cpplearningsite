@@ -5,9 +5,9 @@ const About = () => {
     return(
         <Layout>
             <div>
-                <p>My name is Monkey D Luffin and Im gonna be king of the-</p>
+                <p>[Insert opis kursu]</p>
                 <Link href = "/">
-                    Back to home page
+                    Powrót do Strony Głównej
                 </Link>
             </div>
         </Layout>

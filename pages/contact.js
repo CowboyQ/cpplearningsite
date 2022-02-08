@@ -6,11 +6,11 @@ const Contact = () => {
         <Layout>
             <div>
                 <p>CowboyQ Testing Inc.</p>
-                <p>Name: you wish</p>
-                <p>Adress: lmao</p>
-                <p>Phone: kekw</p>
+                <p>Name: -</p>
+                <p>Adress: -</p>
+                <p>Phone: -</p>
                 <Link href = "/">
-                    Back to home page
+                    Powrót do Strony Głównej
                 </Link>
             </div>
         </Layout>

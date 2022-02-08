@@ -4,11 +4,11 @@ const LectureNavbar = () => {
     return(
         <nav>
             <div className="logo">
-                <h1>Hello there</h1>
+                <h1>CowboyQ's Learning Playground</h1>
             </div>
             <div className="nav_elements">
                 <Link href="/">
-                    General Kenobi
+                    Strona Główna
                 </Link>
             </div>
             

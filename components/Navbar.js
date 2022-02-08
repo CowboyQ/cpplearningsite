@@ -4,17 +4,17 @@ const Navbar = () => {
     return(
         <nav>
             <div className="logo">
-                <h1>CowboyQs Testing Storage</h1>
+                <h1>CowboyQ's Learning Playground</h1>
             </div>
             <div className="nav_elements">
                 <Link href="/">
-                    Home
+                    Strona Główna
                 </Link>
                 <Link href="/about">
-                    About
+                    O kursie
                 </Link>
                 <Link href="/contact">
-                    Contact
+                    Kontakt
                 </Link>
             </div>
         </nav>
