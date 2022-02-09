@@ -18,8 +18,7 @@
 
 .rad-input {
   position: absolute;
-  left: 0;
-  top: 0;
+  visibility: hidden;
   width: 1px;
   height: 1px;
   opacity: 0;
@@ -242,5 +241,15 @@ A na deser: proste zadanko domowe. Sprawdźcie sami!
 <button onclick="if (document.getElementById('exercises').style.display === 'none') {document.getElementById('exercises').style.display = 'block';} else {document.getElementById('exercises').style.display = 'none';}" class="exerciseButton">Zadanko</button>
 
 <div id="exercises" style="display: none" class="exercise">
-  Spróbujcie tak zmodyfikować program, aby wyświetlił w osobnych linijkach wasze imię, nazwisko oraz szkołę :)
+  Spróbujcie tak zmodyfikować program tak, aby wyświetlił w osobnych linijkach wasze imię, nazwisko oraz szkołę :)
+</div>
+<br/>
+
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>Dodatkowe materiały:</h3>
+
+- <a href="https://www.w3schools.com/cpp/default.asp">Strona W3Schools</a>
+- <a href="https://cpp0x.pl/kursy/Kurs-C++/Poziom-1/Uruchamiamy-pierwszy-program/6">Strona cpp0x</a>
+- <a href="https://cpp0x.pl/kursy/Kurs-C++/Poziom-1/Podstawy-programowania-w-C++/7">Inna strona cpp0x</a>
+
 </div>

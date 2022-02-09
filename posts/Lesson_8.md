@@ -18,8 +18,7 @@
 
 .rad-input {
   position: absolute;
-  left: 0;
-  top: 0;
+  visibility: hidden;
   width: 1px;
   height: 1px;
   opacity: 0;
