@@ -191,6 +191,8 @@ Dlaczego jest taka ważna? Jest to powiązane z faktem, że nasz program jest fu
 Nasza funkcja main też zwraca wartość, i jest nią 0. Nie jest to przypadek: po pierwsze, zwracamy 0 ponieważ *musimy* zwrócić liczbę całkowitą (main jest typu *int*, czyli typu liczby całkowitej). Natomiast 0 informuje nas, że program został wykonany poprawnie i bez błędów.<br/>
 Postarajcie się nie zmieniać tej liczby: o ile możecie zmienić ją na dowolną liczbę całkowitą, o tyle zwrócenie liczby innej od 0 zazwyczaj oznacza błąd w wykonaniu programu, dlatego warto pozostać przy standardowej opcji ;)<br/>
 
+"Okej, ale... jak możemy *wprowadzić* jakieś informacje do programu?". Bardzo prosto: korzystając z ```std::cin >> x;```, gdzie ```x``` to nasza zmienna (dowolnego typu)!<br/>
+
 Oh, a na sam koniec coś, co chyba pominąłem... ```//taktyczny komentarz``` jest właśnie tym: komentarzem. Wszystko, co znajduje się za ```//``` jest **całkowicie ignorowane** przez program: pozwala to na wstawianie krótkich komentarzy do kodu, dzięki czemu możemy szybko wyjaśnić co robi dany fragment.<br/>
 Warto również wspomnieć, że istnieje komentarz blokowy: ```/* [...] */``` którym możemy zakomentować *dowolną ilość linijek kodu.*<br/>
 Wiem że to bardzo dużo informacji, dlatego spróbujcie „przyjąć” to wszystko na spokojnie; przy herbatce albo kubku gorącego kakao. Wiedza będzie napływać z każdą kolejną lekcją i zaczniecie rozumieć coraz to więcej :)
@@ -248,7 +250,7 @@ A na deser: proste zadanko domowe. Sprawdźcie sami!
 <div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
 <h3>Dodatkowe materiały:</h3>
 
-- <a href="https://www.w3schools.com/cpp/default.asp">Strona W3Schools</a>
+- <a href="https://www.w3schools.com/cpp/default.asp">Strona W3Schools [ang.]</a>
 - <a href="https://cpp0x.pl/kursy/Kurs-C++/Poziom-1/Uruchamiamy-pierwszy-program/6">Strona cpp0x</a>
 - <a href="https://cpp0x.pl/kursy/Kurs-C++/Poziom-1/Podstawy-programowania-w-C++/7">Inna strona cpp0x</a>
 

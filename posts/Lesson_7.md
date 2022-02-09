@@ -331,7 +331,27 @@ Zdradzę wam nawet pewien sekret.<br/>
 *Wszystko w programowaniu jest liczbą jeśli tylko zejdziemy wystarczająco nisko ;)*<br/>
 Nie jest to jednak ani przypadek, ani błąd: jest to oznaczenie tzw. *kodu ASCII.*<br/>
 Tablica kodów ASCII jest w każdym komputerze i dekoduje ona litery oraz inne znaki specjalne.
-Praca na znakach byłaby niesamowicie ciężka zarówno dla komputerów, jak i dla ludzi pracujących z komputerami. Dlatego też każdy znak jest zakodowany jako jakaś konkretna liczba: komputer przetwarza ją i dopiero na samym końcu podmienia na litery które możemy swobodnie czytać :)
-Może się to wydawać dziwne, ale wierzcie mi: takie rozwiązanie ma bardzo wiele plusów o których przekonacie się na przyszłych zajęciach :)<br/>
-A póki co kończymy, wystarczająco was wymęczyłem tymi informacjami… Do zobaczenia na kolejnej lekcji, gdzie opowiemy sobie o tablicach!
+Praca na znakach byłaby niesamowicie ciężka zarówno dla komputerów, jak i dla ludzi pracujących z komputerami. Dlatego też każdy znak jest zakodowany jako jakaś konkretna liczba: komputer przetwarza ją i dopiero na samym końcu podmienia na litery które możemy swobodnie czytać.
+Może się to wydawać dziwne, ale wierzcie mi: takie rozwiązanie ma bardzo wiele plusów o których przekonacie się na przyszłych zajęciach!<br/>
+A na razie zostawiam was z zadankami oraz dodatkowymi informacjami do przejrzenia (jeśli, oczywiście, chcecie) :)
+
+<button onclick="if (document.getElementById('exercises').style.display === 'none') {document.getElementById('exercises').style.display = 'block';} else {document.getElementById('exercises').style.display = 'none';}" class="exerciseButton">Zadanka</button>
+
+<div id="exercises" style="display: none" class="exercise">
+  1. Opiszcie (przy pomocy co najmniej 5 zmiennych) trzy przedmioty. Mogą to być samochód, wazon, zeszyt, monitor, dom, roślinka... wybór należy do was!<br/>
+  2. Za pomocą polecenia sizeof(typ_danych) sprawdźcie, ile bajtów zajmują poszczególne typy danych.<br/>
+</div>
+<br/>
+
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>Dodatkowe materiały:</h3>
+
+- <a href="https://www.geeksforgeeks.org/c-data-types/">Strona G4G [ang.]</a>
+- <a href="https://www.w3schools.com/cpp/cpp_data_types.asp">Strona W3Schools [ang.]</a>
+- <a href="https://cpp0x.pl/kursy/Kurs-C++/Poziom-1/Pojecie-zmiennej-i-podstawowe-typy-danych/11">Strona cpp0x</a>
+
+</div>
+
+Póki co kończymy, wystarczająco was wymęczyłem tymi informacjami… Do zobaczenia na kolejnej lekcji, gdzie opowiemy sobie o tablicach!
+
 

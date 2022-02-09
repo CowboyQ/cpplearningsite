@@ -264,8 +264,17 @@ A dla chętnych: **zadanko ;)**
 <button onclick="if (document.getElementById('exercises').style.display === 'none') {document.getElementById('exercises').style.display = 'block';} else {document.getElementById('exercises').style.display = 'none';}" class="exerciseButton">Zadanko</button>
 
 <div id="exercises" style="display: none" class="exercise">
-  Napiszcie program, który sprawdza godzinę, i:<br/>
+  1. Napiszcie program, który sprawdza godzinę, i:<br/>
   - Przed 10 mówi "Witam o poranku!"<br/>
   - Przed 20 mówi "Dzień dobry!"<br/>
-  - Po 20 mówi "Dobry wieczór!"
+  - Po 20 mówi "Dobry wieczór!"<br/>
+  2. Napiszcie program, który znajduje największą liczbę z trzech podanych przez użytkownika.</br>
+</div>
+
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>Dodatkowe materiały:</h3>
+
+- <a href="https://www.w3schools.com/cpp/cpp_conditions.asp">Strona W3Schools [ang.]</a>
+- <a href="https://cpp0x.pl/kursy/Kurs-C++/Poziom-1/Instrukcja-warunkowa-if-else/16">Strona cpp0x</a>
+
 </div>

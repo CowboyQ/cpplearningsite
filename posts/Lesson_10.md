@@ -252,7 +252,7 @@ if(document.getElementById('op1').checked || document.getElementById('op2').chec
 
 Dziś kolejna duża dawka informacji, dlatego zostawię wam kilka zadanek do przećwiczenia całego tego materiału ;)
 
-<button onclick="if (document.getElementById('exercises').style.display === 'none') {document.getElementById('exercises').style.display = 'block';} else {document.getElementById('exercises').style.display = 'none';}" class="exerciseButton">Zadanko</button>
+<button onclick="if (document.getElementById('exercises').style.display === 'none') {document.getElementById('exercises').style.display = 'block';} else {document.getElementById('exercises').style.display = 'none';}" class="exerciseButton">Zadanka</button>
 
 <div id="exercises" style="display: none" class="exercise">
 1.<br/>
@@ -260,7 +260,12 @@ Dziś kolejna duża dawka informacji, dlatego zostawię wam kilka zadanek do prz
 2.<br/>
   Napiszcie program, który wypisuje wszystkie cyfry naturalne *aż do wybranej liczby,* a następnie podaje sumę tych liczb.<br/>
 *3.<br/>
-  Napiszcie program, który oblicza silnię podanej liczby.
+  Napiszcie program, który oblicza silnię podanej liczby.<br/>
+4.<br/>
+  Napiszcie program, który przyjmuje do tablicy wybraną przez was ilość liczb, a następnie szuka zarówno najmniejszej, jak i największej z nich.<br/>
+*5.<br/>
+  Napiszcie program, który sprawdza, czy wpisane słowo jest palindromem.
+
 </div>
 
 A na następnych zajęciach: zasięg dostępu! Do zobaczenia! :)

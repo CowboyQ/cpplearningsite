@@ -203,6 +203,19 @@ Zadania te będą dostępne po kliknięciu takiego przycisku:</p>
   Tutaj będą dostępne zadania do zrobienia :)
 </div>
 
+Oh, jeszcze jedno!<br/>
+Jeśli wciaż będziecie mieli jakieś pytania albo nie będziecie czegoś pewni: <br/>
+
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>W tym miejscu będę zamieszczał wam dodatkowe materiały</h3>
+
+- Będą to linki do stron które uważam za dobre źródła wiedzy
+- Wszystkie linki do stron anglojęzycznych będą oczywiście oznaczone
+- Jednak jeśli nawet to nie zaspokoi waszego łaknienia wiedzy... No cóż, nie pozostaje mi nic innego jak...
+- ...odesłać was do Wujka Google! Wierzcie mi, nawet doświadczeni programiści muszą czasami coś sprawdzić, więc nie czujcie się źle z tego powodu :)
+
+</div>
+
 Bez względu na drogę którą wybierzecie: cieszę się, że zdecydowaliście się skorzystać z mojego kursu. Mam nadzieję, że czytanie go sprawi wam taką samą przyjemność, jaką mnie sprawiło jego pisanie. Liczę też, że obudzi to w was tę samą pasję do programowania, jaką poczuło już miliony ludzi na całym świecie :)
 
 

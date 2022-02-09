@@ -230,3 +230,11 @@ if(document.getElementById('op1').checked || document.getElementById('op2').chec
 
 To tyle na dziś! Na kolejnej lekcji pomówimy nieco o wspomnianych wcześniej instrukcjach warunkowych, czyli jak sprawić aby nasz kod działał w każdej możliwej sytuacji!<br/>
 Do zobaczenia! :)
+
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>Dodatkowe materiały:</h3>
+
+- <a href="https://www.w3schools.com/cpp/cpp_arrays.asp">Strona W3Schools [ang.]</a>
+- <a href="https://cpp0x.pl/kursy/Kurs-C++/Poziom-2/Tablice-jednowymiarowe/292">Strona cpp0x</a>
+
+</div>
