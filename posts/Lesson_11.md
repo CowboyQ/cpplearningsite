@@ -239,3 +239,10 @@ Zasięg dostępu zmiennych może być problematyczny dla początkujących, dlate
 
 A póki co do zobaczenia na lekcji o wskaźnikach! ;)
 
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>Dodatkowe materiały:</h3>
+
+- <a href="http://drzewniak.slupsk.pl/~ks/c/c_024.html">Strona dzewniak</a>
+- <a href="https://edu.pjwstk.edu.pl/wyklady/pro/scb/PRG2CPP_files/node33.html">Polsko-Japońska Akademia Technik Komputerowych</a>
+
+</div>

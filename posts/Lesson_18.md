@@ -312,3 +312,11 @@ if(document.getElementById('op1').checked || document.getElementById('op2').chec
 <p id="answer" class="exercise" style="display:none;"></p>
 
 No ale, na dziś wystarczy tych informacji. Na następnej (i niestety ostatniej już) lekcji zajmiemy się czymś, co tajemniczo nazywa się „polimorfizm”. Do zobaczenia ;)
+
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>Dodatkowe materiały:</h3>
+
+- <a href="https://www.w3schools.com/cpp/cpp_inheritance.asp">Strona W3Schools [ang.]</a>
+- <a href="https://cpp0x.pl/kursy/Programowanie-obiektowe-C++/Polimorfizm/Dziedziczenie/494">Strona cpp0x</a>
+
+</div>

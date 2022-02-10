@@ -314,3 +314,13 @@ Jeśli jednak chcecie nieco przećwiczyć działania na plikach, polecam zapozna
 </div>
 
 Bawcie się dobrze, i do zobaczenia na kolejnych zajęciach: tym razem z dziedziczenia!
+
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>Dodatkowe materiały:</h3>
+
+- <a href="https://www.w3schools.com/cpp/cpp_files.asp">Strona W3Schools [ang.]</a>
+- <a href="https://cpp0x.pl/kursy/Kurs-C++/Dodatkowe-materialy/Obsluga-plikow/305">Strona cpp0x</a>
+- <a href="https://www.cplusplus.com/doc/tutorial/files/">Strona cplusplus</a>
+- <a href="https://www.youtube.com/watch?v=h2Taf16gQDI">Filmik autorstwa "Pasja Informatyki"</a>
+
+</div>

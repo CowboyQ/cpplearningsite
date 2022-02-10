@@ -374,6 +374,14 @@ Oczywiście możecie też poćwiczyć nowe informacje na poniższych zadankach:
   Może jakaś zmienna licząca dostępne miejsce..?
 </div>
 
-
-
 A następnym razem powiemy nieco o przeładowaniu funkcji, do zobaczenia! :)
+
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>Dodatkowe materiały:</h3>
+
+- <a href="https://www.w3schools.com/cpp/cpp_classes.asp">Strona W3Schools [ang.]</a>
+- <a href="https://cpp0x.pl/kursy/Kurs-C++/Dodatkowe-materialy/Klasy-obiekty/311">Strona cpp0x</a>
+- <a href="https://www.p-programowanie.pl/cpp/klasy-c">Strona P-Programowanie</a>
+- <a href="https://www.youtube.com/watch?v=aDXjubGK0jU">Filmik autorstwa "Pasja Informatyki"</a>
+
+</div>

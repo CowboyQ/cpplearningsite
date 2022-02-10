@@ -269,3 +269,13 @@ Mam nadzieję, że to rozwiało nieco waszych wątpliwości na temat funkcji. Za
 2.<br/>
   Napiszcie program, który przyjmuje dowolną liczbę naturalną i (wewnątrz funkcji) oblicza sumę wszystkich liczb naturalnych aż do podanej.
 </div>
+
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>Dodatkowe materiały:</h3>
+
+- <a href="https://www.w3schools.com/cpp/cpp_functions.asp">Strona W3Schools [ang.]</a>
+- <a href="https://cpp0x.pl/kursy/Kurs-C++/Poziom-2/Funkcje-pierwsze-starcie/291">Strona cpp0x</a>
+- <a href="https://docs.microsoft.com/pl-pl/cpp/cpp/functions-cpp?view=msvc-170">Strona Microsoft</a>
+- <a href="https://www.youtube.com/watch?v=HHplT1A4_A4">Filmik autorstwa "Pasja Informatyki"</a>
+
+</div>

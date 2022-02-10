@@ -197,3 +197,11 @@ No ale: doświadczenia i wiedzy nabiera się głównie z praktyki, dlatego też 
 </div>
 
 Do zobaczenia na następnej lekcji!
+
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>Dodatkowe materiały:</h3>
+
+- <a href="https://edu.pjwstk.edu.pl/wyklady/pro/scb/PRG2CPP_files/node68.html">Strona Polsko-Japońskiej Akademii Technik Komputerowych</a>
+- <a href="https://docs.microsoft.com/pl-pl/cpp/cpp/function-overloading?view=msvc-170">Strona Microsoft</a>
+
+</div>

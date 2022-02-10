@@ -213,6 +213,7 @@ Jeśli wciaż będziecie mieli jakieś pytania albo nie będziecie czegoś pewni
 - Wszystkie linki do stron anglojęzycznych będą oczywiście oznaczone
 - Jednak jeśli nawet to nie zaspokoi waszego łaknienia wiedzy... No cóż, nie pozostaje mi nic innego jak...
 - ...odesłać was do Wujka Google! Wierzcie mi, nawet doświadczeni programiści muszą czasami coś sprawdzić, więc nie czujcie się źle z tego powodu :)
+- Pragnę również zaznaczyć, że **żadne** z wymienianych w tych miejscach materiałów nie należą do autora tego kursu, ani nie są z nim powiazane. Są to materiały dostępne w sieci Internet, które autor uznał za warte uwagi.
 
 </div>
 

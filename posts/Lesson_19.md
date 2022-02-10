@@ -302,3 +302,19 @@ Polimorfizm nie jest niczym strasznym, jak sami się o tym przed chwilą przekon
 
 To tyle na dziś; zostawiam wam (ostatni już) zestaw zadanek oraz odnośników i do zobaczenia na zakończeniu!
 
+<button onclick="if (document.getElementById('exercises').style.display === 'none') {document.getElementById('exercises').style.display = 'block';} else {document.getElementById('exercises').style.display = 'none';}" class="exerciseButton">Zadanka</button>
+
+<div id="exercises" style="display: none" class="exercise">
+
+  Stwórzcie klasę "Obiekt" oraz dzieci tej klasy: klasę "Okrąg", "Trójkąt" oraz "Kwadrat". W klasie "Obiekt" napiszcie wirtualną metodę "rysuj()", którą następnie nadpiszecie w klasach-dzieciach. Wykorzystują polimorfizm odwołajcie się do tej metody.
+</div>
+<br/>
+
+<div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">
+<h3>Dodatkowe materiały:</h3>
+
+- <a href="https://www.w3schools.com/cpp/cpp_polymorphism.asp">Strona W3Schools [ang.]</a>
+- <a href="https://www.p-programowanie.pl/cpp/polimorfizm-metody-wirtualne">Strona pprogramowanie</a>
+
+</div>
+
