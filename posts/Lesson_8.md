@@ -229,6 +229,16 @@ if(document.getElementById('op1').checked || document.getElementById('op2').chec
 <p id="answer" class="exercise" style="display:none;"></p>
 
 To tyle na dziś! Na kolejnej lekcji pomówimy nieco o wspomnianych wcześniej instrukcjach warunkowych, czyli jak sprawić aby nasz kod działał w każdej możliwej sytuacji!<br/>
+
+Oh, byłbym zapomniał: wasza dzienna dawka zadanek z lekcji:
+
+<button onclick="if (document.getElementById('exercises').style.display === 'none') {document.getElementById('exercises').style.display = 'block';} else {document.getElementById('exercises').style.display = 'none';}" class="exerciseButton">Zadanka</button>
+
+<div id="exercises" style="display: none" class="exercise">
+  1. Zefiniujcie tablice każdego znanego wam typu z co najmniej dwoma elementami, a następnie wyświetlcie elementy tej samej tablicy obok siebie.<br/>
+  2. Spróbujcie wyświetlić element który nie należy do tablicy, np., dla int liczby[3]; wyświetlcie element nr. 5 oraz 6. Co pokazuje konsola? :)<br/>
+</div>
+
 Do zobaczenia! :)
 
 <div style="background-color: #17eb50;border-radius: 10px;padding: 5px;padding-left: 20px;border: 5px #0f6124 dashed;">

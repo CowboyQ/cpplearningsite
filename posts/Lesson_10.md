@@ -222,7 +222,6 @@ Zanim skończymy na dziś, lekka przypominajka:<br/>
 <div class="rad-text">do...while</div>
 </label>
 
-<form> 
 <label class="rad-label">
 <input type="radio" class="rad-input" name="fav_language" value="HTML" id="op3">
 <div class="rad-design"></div>
