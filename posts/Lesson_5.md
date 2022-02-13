@@ -109,7 +109,7 @@ Niektórzy mogą pomyśleć „Okej, fajnie, ale… Każdy z naszych samochodów
 Jest to bardzo dobre pytanie, a odpowiedź jest jeszcze prostsza: *parametry.*
 
 Parametrami funkcji zajmiemy się później: na razie zapamiętajcie, że są to dodatkowe informacje *dla naszej funkcji*, aby pracowała tak, jak tego chcemy. Dzięki parametrom możemy dostarczyć funkcji informacji, typu „Potrzebuję 15 żółtych samochodów, 40 zielonych i 200 czarnych. Z tych żółtych 5 z nich ma mieć skórzane siedzenia, chromowane koła…” etc. Możemy składać pełne zamówienia, ale musimy pamiętać: jeśli chcemy takich funkcjonalności, to musimy najpierw przystosować do tego naszą funkcję. Ale o tym opowiem już innym razem ;)
-Póki co natomiast musze wam złożyć moje gratulacje: właśnie skończyliście wstęp do kursu programowania!! Jestem z was wszystkich dumny i obiecuję, że na następnej lekcji zajmiemy się już kodem w C++ :)
+Póki co natomiast muszę wam złożyć moje gratulacje: właśnie skończyliście wstęp do kursu programowania!! Jestem z was wszystkich dumny i obiecuję, że na następnej lekcji zajmiemy się już kodem w C++ :)
 
 Idąc jednak do przodu nie zapominajcie, że rozpisywanie pseudokodu czy też schematy blokowe są wykorzystywane nie tylko przez początkujących, ale przez specjalistów i wielkie korporacje. Dlaczego? Ponieważ o wiele łatwiej zrozumieć działanie programu za pomocą kolorowego rysunku ze strzałkami, zamiast zagłębiać się w setki tysięcy linijek kodu na przestrzeni kilkudziesięciu różnych plików rozsianych po całym projekcie ;)
 

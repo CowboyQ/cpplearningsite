@@ -184,7 +184,7 @@ int dodawanie(int a);
 double dodawanie(int b);
 ```
 
-Powyższy kod wyrzuci błąd kompilatora: co prawda funckje różnią się *typem* danych, ale nie różnią się *parametrami:* coś co jest wymogiem przy przeładowaniu funkcji.<br/>
+Powyższy kod wyrzuci błąd kompilatora: co prawda funkcje różnią się *typem* danych, ale nie różnią się *parametrami:* coś co jest wymogiem przy przeładowaniu funkcji.<br/>
 No ale: doświadczenia i wiedzy nabiera się głównie z praktyki, dlatego też poniżej znajdziecie kilka zadanek dotyczących przeładowania funkcji :)<br/>
 
 <button onclick="if (document.getElementById('exercises').style.display === 'none') {document.getElementById('exercises').style.display = 'block';} else {document.getElementById('exercises').style.display = 'none';}" class="exerciseButton">Zadanka</button>

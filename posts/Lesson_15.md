@@ -175,7 +175,7 @@ W takich sytuacjach dostęp (oraz jego kontrola) nabiera wyjątkowego znaczenia.
 
 „Ale… my nie piszemy systemów bankowych! Dlaczego nie możemy robić wszystkiego jako ‘public’?”<br/>
 
-Ponieważ wyrobienie sobie dobrych nawyków teraz będzie skutkowało w bardziej profesjonalnym kodzie w przyszłości (na co zwróci uwagę każda osoba spoglądająca na wasz program) ;)<br/>
+Ponieważ wyrobienie sobie dobrych nawyków teraz, będzie skutkowało w bardziej profesjonalnym kodzie w przyszłości (na co zwróci uwagę każda osoba spoglądająca na wasz program) ;)<br/>
 Poznaliście modyfikator *public* więc teraz czas poznać drugi z nich: **private**.<br/>
 Private sprawia, że *tylko metody danej klasy mają dostęp do zmiennej.* Gdy zmienna jest prywatna, wypisanie „std::cout << osoba.imie << std::endl;” (zakładając że „imie” jest prywatne) wywoła błąd i program się nie uruchomi.<br/>
 Jak więc dostać się do tej zmiennej z poza programu (czyli np. z funkcji main?)<br/>
@@ -286,7 +286,7 @@ if(document.getElementById('op1').checked || document.getElementById('op2').chec
 
 <p id="answer" class="exercise" style="display:none;"></p>
 
-Programowanie staje się jeszcze prostsze gdy użyjemy konstruktora *z parametrami.* Zobaczcie:
+Programowanie staje się jeszcze prostsze, gdy użyjemy konstruktora *z parametrami.* Zobaczcie:
 
 ```c
 #include <iostream>

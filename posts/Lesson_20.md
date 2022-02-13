@@ -162,9 +162,9 @@ Niestety, nasza wspólna przygoda dobiega końca, dlatego też chciałem poświ�
     - Załączam wam też <a href="https://www.dunebook.com/c-project-ideas-for-beginners/">listę projektów na start</a>: w razie gdybyście nie wiedzieli gdzie ich szukać. A jeśli nie wiecie, gdzie zacząć... Każdemu polecam zacząć *na początku ;)*
 
 Wasza przygoda z C++ dopiero się zaczęła: na swojej drodze poznacie jeszcze wiele metod, pojęć i rozwiązań o których istnieniu nie wiedzieliście!<br/>
-Żeby je poznać, trzeba napotkać nowe problemy i dążyć do ich rozwiązania. Ale gdzie szukać rozwiazań?
+Żeby je poznać, trzeba napotkać nowe problemy i dążyć do ich rozwiązania. Ale gdzie szukać rozwiązań?
 
-- <a href="https://stackoverflow.com">StackOverflow</a> to dla wielu programistów Biblia, pierwsze oraz ostatnie miejsce ratunku. Każdy szuka tu rozwiazań, pomysłów, odpowiedzi na nurtujące pytania. Jeśli napotkacie błąd i w Google wpiszecie "[treść błędu] stackoverflow" to jest **bardzo** duża szansa, że znajdziecie swoją odpowiedź.
+- <a href="https://stackoverflow.com">StackOverflow</a> to dla wielu programistów Biblia, pierwsze oraz ostatnie miejsce ratunku. Każdy szuka tu rozwiązań, pomysłów, odpowiedzi na nurtujące pytania. Jeśli napotkacie błąd i w Google wpiszecie "[treść błędu] stackoverflow" to jest **bardzo** duża szansa, że znajdziecie swoją odpowiedź.
     - **UWAGA:** błagam nie sugerujcie się kodem z *pytania,* tylko tym niżej, który jest *w odpowiedzi.*
 - <a href="https://www.reddit.com/r/programming/">Reddit r/programming</a> jest równie potężną bazą wiedzy; zawiera pytania, odpowiedzi oraz sugestie dla początkujących programistów, dlatego warto się rozejrzeć!
 - <a href="https://github.com">Github.com</a> jest świetny: pozwala wam przechowywać swój kod w chmurze, kontrolować jego wersje, dołączać swoje pomysły i małe cegiełki kodu do większych, publicznych projektów... Jest to wspaniałe miejsce zarówno do pracy, jak i nauki.

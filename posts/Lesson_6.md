@@ -176,7 +176,7 @@ No cóż… Macie rację. Wynik uruchomienia takiego programu jest następujący
 
 Zwykłe czarne okienko z napisem „Hello, world!”, z angielskiego „Witaj, świecie!”. To już programistyczna tradycja żeby każdy, kto zaczyna swoją przygodę z kodem, napisał ten najbardziej podstawowy programik. Spróbujcie sami przepisać ten kod do środowiska, a następnie wciśnijcie F11, aby sprawić, żeby magia działa się na waszych oczach ;)
 Wracając jednak do kodu, przejdźmy po kolei:
-- ```#include <iostream>``` jest tzw. „dyrektywą preprocesora”. Jeśli to brzmi strasznie, to… powinno; ich używanie powinno być zawsze odpowiedzialne oraz przemyślane. Póki co pamiętajcie, że ta linijka pozwala nam na użycie ```cout <<``` nieco niżej i w ogólnym znaczeniu pozwala na komunikację programu z użytkownikiem (iostream, czyli I/O Stream, to nic innego jak biblioteka Input/Output)
+- ```#include <iostream>``` jest tzw. „dyrektywą preprocesora”. Jeśli to brzmi strasznie, to… powinno; ich używanie powinno być zawsze odpowiedzialne oraz przemyślane. Póki co pamiętajcie, że ta linijka pozwala nam na użycie ```cout <<``` nieco niżej i w ogólnym znaczeniu pozwala na komunikację programu z użytkownikiem (iostream, czyli I/O Stream, to nic innego jak biblioteka Input/Output).
 
 - ```int main(){}``` to nasza główna funkcja, nasz program i główne stanowisko dowodzenia. Każdy nasz program będzie startował właśnie z tego miejsca i to tutaj będzie się działo wszystko co najistotniejsze. ```main()``` to funkcja (które pewnie pamiętacie z wprowadzenia), w której wykonuje się kod naszego programu. Jest ona typu ```int```, a więc liczby całkowitej. Wiem że to dużo informacji jak na początek, ale wystarczy, że zapamiętacie, że jest to główny komponent naszego programu i wszystko co będziemy wykonywać, będzie się wykonywać właśnie tam.
 
@@ -193,7 +193,7 @@ Postarajcie się nie zmieniać tej liczby: o ile możecie zmienić ją na dowoln
 
 "Okej, ale... jak możemy *wprowadzić* jakieś informacje do programu?". Bardzo prosto: korzystając z ```std::cin >> x;```, gdzie ```x``` to nasza zmienna (dowolnego typu)!<br/>
 
-Oh, a na sam koniec coś, co chyba pominąłem... ```//taktyczny komentarz``` jest właśnie tym: komentarzem. Wszystko, co znajduje się za ```//``` jest **całkowicie ignorowane** przez program: pozwala to na wstawianie krótkich komentarzy do kodu, dzięki czemu możemy szybko wyjaśnić co robi dany fragment.<br/>
+Och, a na sam koniec coś, co chyba pominąłem... ```//taktyczny komentarz``` jest właśnie tym: komentarzem. Wszystko, co znajduje się za ```//``` jest **całkowicie ignorowane** przez program: pozwala to na wstawianie krótkich komentarzy do kodu, dzięki czemu możemy szybko wyjaśnić co robi dany fragment.<br/>
 Warto również wspomnieć, że istnieje komentarz blokowy: ```/* [...] */``` którym możemy zakomentować *dowolną ilość linijek kodu.*<br/>
 Wiem że to bardzo dużo informacji, dlatego spróbujcie „przyjąć” to wszystko na spokojnie; przy herbatce albo kubku gorącego kakao. Wiedza będzie napływać z każdą kolejną lekcją i zaczniecie rozumieć coraz to więcej :)
 

@@ -148,7 +148,7 @@
 Witajcie ponownie! Na dzisiejszej lekcji dowiemy się co nieco o operatorach logicznych oraz ich zastosowaniu, w szczególności w instrukcjach warunkowych.
 
 Najpierw słowo o operatorach logicznych. Na szczęście teorii nie jest zbyt dużo:
-- Operatorów jest kilka a część z nich pamiętacie może z matematyki: ```>, <, >=, <=, != czy ==```. Przedostatni oznacza „różny”. Ten ostatni jest szczególnie istotny: zauważyliście jak pojedynczy znak „=” oznacza *przypisanie?* Podwójny znak oznacza sprawdzenie równości między dwoma zmiennymi, dlatego warto poznać różnicę gdyż jest dość spora!
+- Operatorów jest kilka, a część z nich pamiętacie może z matematyki: ```>, <, >=, <=, != czy ==```. Przedostatni oznacza „różny”. Ten ostatni jest szczególnie istotny: zauważyliście jak pojedynczy znak „=” oznacza *przypisanie?* Podwójny znak oznacza sprawdzenie równości między dwoma zmiennymi, dlatego warto poznać różnicę gdyż jest dość spora!
 - Istnieją też inne operatory których możecie nie kojarzyć: ```&&``` („and”), ```||``` („or”). Dzięki nim możemy budować bardziej rozbudowane warunki.
 - Warto tu też wspomnieć o ```%```, czyli oznaczeniu modulo: reszty z dzielenia.
 
@@ -178,7 +178,7 @@ Jak wszystko w informatyce, nie jest to zbyt skomplikowane!<br/>
 
 No cóż… nic!<br/>
 Program kończy swoje zadanie, ponieważ żadna z instrukcji „else” nie zostanie już wykonana, gdyż zawiera słowo *else*: *w przeciwnym wypadku.* Pierwszy przypadek został wykonany, więc żaden inny z tym słowem nie będzie.<br/>
-„Okej, ale… co jeśli dam pod sobą kilka instrukcji ‘if’, bez ‘else’?”<br/>
+„Okej, ale… co jeśli dam pod sobą kilka instrukcji ‘if’, bez ‘else’?”.<br/>
 W takim przypadku każdy warunek będzie sprawdzany, a kod wykonywany jeśli warunek zostanie spełniony!<br/>
 Nauka manipulacją instrukcjami ```if``` oraz ```else``` to czysta praktyka i sprawdzanie co działa, a co nie. Dlatego też napiszmy trochę kodu i sprawdźmy, co działa :)
 
@@ -257,7 +257,7 @@ if(document.getElementById('op1').checked || document.getElementById('op2').chec
 <p id="answer" class="exercise" style="display:none;"></p>
 
 Jak możecie zauważyć, w warunkach zastosowaliśmy również operatory logiczne: && oraz || aby połączyć operacje logiczne. W pierwszym mamy do czynienia z sytuacją „jeżeli wiek jest większy od zera *oraz* wiek jest mniejszy niż 10” wypisujemy pierwszą opcję etc. :)<br/>
-Warunki świetnie sprawdzają się również w przypadku pętli o których to opowiem wam na kolejnej lekcji. Do zobaczenia! :)
+Warunki świetnie sprawdzają się również w przypadku pętli, o których to opowiem wam na kolejnej lekcji. Do zobaczenia! :)
 
 A dla chętnych: **zadanko ;)**
 

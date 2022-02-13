@@ -5,7 +5,7 @@ const About = () => {
     return(
         <Layout>
             <div>
-                <p>[Insert opis kursu]</p>
+                <p>Kurs został stworzony jako część pracy inżynierskiej.</p>
                 <Link href = "/">
                     Powrót do Strony Głównej
                 </Link>

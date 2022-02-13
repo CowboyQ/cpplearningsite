@@ -145,8 +145,8 @@
 
 <h2>Lekcja 11: Zasięg dostępu</h2>
 
-Witajcie! Dzisiejsza lekcja: zasięg dostępu, czyli symulator „jak to zmienna jest ‘not defined’??”<br/>
-Zasięg dostępu jest niczym innym jak zakresem, w jakim widoczna jest wasza zmienna. W baaaardzo dużym skrócie: zmienną widać jeśli jest na tym samym poziomie albo „wyżej” niż wąsiste nawiasy w których się porusza. Co to oznacza? Zobaczmy na przykładzie:
+Witajcie! Dzisiejsza lekcja: zasięg dostępu, czyli symulator „jak to zmienna jest ‘not defined’?”<br/>
+Zasięg dostępu jest niczym innym jak zakresem, w jakim widoczna jest wasza zmienna. W bardzo dużym skrócie: zmienną widać jeśli jest na tym samym poziomie albo „wyżej” niż wąsiste nawiasy w których się porusza. Co to oznacza? Zobaczmy na przykładzie:
 
 ```c
 int a = 5;
@@ -176,7 +176,7 @@ if(a < 200){
 std::cout << c << std::endl;
 ```
 
-Zmiena ```c```została zadeklarowana *wewnątrz* instrukcji warunkowej, dlatego też nie mamy do niej dostępu “z zewnątrz”. Możemy to jednak w bardzo prosty sposób obejść *deklarując* ```c``` wyżej:
+Zmienna ```c``` została zadeklarowana *wewnątrz* instrukcji warunkowej, dlatego też nie mamy do niej dostępu “z zewnątrz”. Możemy to jednak w bardzo prosty sposób obejść *deklarując* ```c``` wyżej:
 
 ```c
 int a = 10, c = 15;

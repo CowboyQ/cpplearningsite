@@ -47,7 +47,7 @@ Logiczny obecnoscJasKowalski;
 obecnoscJasKowalski = false;
 ```
 
-Typu danych służą nam w każdym miejscu i za ich pomocą możemy opisywać otaczajacy nas świat. Warto jednak wspomnieć, że pojedyncze zmienne mogą nam czasem nie wystarczyć, dlatego też powstały *tablice.* Są one w stanie przechowywać kila(naście/dziesiąt/set/tysięcy) zmiennych **tego samego typu**, jedna za drugą.<br/>
+Typy danych służą nam w każdym miejscu i za ich pomocą możemy opisywać otaczajacy nas świat. Warto jednak wspomnieć, że pojedyncze zmienne mogą nam czasem nie wystarczyć, dlatego też powstały *tablice.* Są one w stanie przechowywać kila (naście/dziesiąt/set/tysięcy) zmiennych **tego samego typu**, jedna za drugą.<br/>
 Więc zamiast tego:
 ```
 Logiczny obecnoscJasKowalski;

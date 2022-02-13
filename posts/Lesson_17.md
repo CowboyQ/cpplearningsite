@@ -191,7 +191,7 @@ int main(){
 	return 0;
 }
 ```
-Ten prosty programik pomoże nam wypisać zawartość pliku "test.txt" w konsoli. Otwieramy plik przy pomocy ```ifstream``` po której następuje nazwa zmiennej dzięki której możemy pracować na pliku. Samą nazwę pliku zamieszczamy w nawiasach obok nazwy zmiennej. *Uwaga:* ścieżka do pliku musi być relatywna do *pliku .cpp*, dlatego też warto zastosować tu mechanizm zabezpiecznia przed pracą na nieistniejącym pliku:
+Ten prosty programik pomoże nam wypisać zawartość pliku "test.txt" w konsoli. Otwieramy plik przy pomocy ```ifstream```, po której następuje nazwa zmiennej, dzięki której możemy pracować na pliku. Samą nazwę pliku zamieszczamy w nawiasach obok nazwy zmiennej. *Uwaga:* ścieżka do pliku musi być relatywna do *pliku .cpp*, dlatego też warto zastosować tu mechanizm zabezpiecznia przed pracą na nieistniejącym pliku:
 
 ```
 #include <iostream>
@@ -214,7 +214,7 @@ int main(){
 ```
 
 Jeden prosty if pozwala nam zabezpieczyć się przed błędem :)<br/>
-No ale, samo wypisywanie tekstu w konsoli jest dość nudne, przedźmy do ciekawszych rzeczy, na przykład przyjmowania danych z pliku<br/>
+No ale, samo wypisywanie tekstu w konsoli jest dość nudne, przejdźmy do ciekawszych rzeczy, na przykład przyjmowania danych z pliku.<br/>
 Zacznijmy od czegoś prostego: przyjmowanie samych liczb typu całkowitego:
 
 ```
@@ -244,7 +244,7 @@ int main(){
 }
 ```
 
-Ten program pozwoli nam przyjąć 15 liczb całkowitych, zapisać je do tablicy, a następnie wyświetlić je w konsoli. Zaczyna się robić ciekawie, ale to wciąż bardzo prosty przykład: co jeśli dane będą różniły się typem? No cóż, najpierw potrzebujemy nieco inny plik, nazwijmy go "dane.txt". Wygląda on w ten sposób (wszystkie dane są wymyślone, nie repreentują one prawdziwych osób):
+Ten program pozwoli nam przyjąć 15 liczb całkowitych, zapisać je do tablicy, a następnie wyświetlić je w konsoli. Zaczyna się robić ciekawie, ale to wciąż bardzo prosty przykład: co jeśli dane będą różniły się typem? No cóż, najpierw potrzebujemy nieco inny plik, nazwijmy go "dane.txt". Wygląda on w ten sposób (wszystkie dane są wymyślone, nie reprezentują one prawdziwych osób):
 
 ```
 1980 Janusz Kowalski 18.9
@@ -285,18 +285,18 @@ int main(){
 ```
 
 Przeanalizujmy powyższy fragment:
-- Wiemy że mamy trzech pracowników, dlatego też tworzymy zmienną "pracownicy" żeby nie pisać wszędzie 3 (przy zmianie liczby pracowników zmieniamy tylko jedno przypisanie).
-- tworzymy tablice na każdy z typów danych: rok, imię, nazwisko oraz stawkę
-- otwieramy plik, sprawdzamy czy jest otwarty
-- używamy pętli while do "przechodzenia" po pliku:
-	- metoda .eof() zwraca koniec pliku
-	- ale jako że ją negujemy (wykorzyknik z przodu!) oznacza to, że mówimy kompilatorowi "czytaj linie z pliku dopóki nie napotkasz końca pliku".
-- wewnątrz pętli *wczytujemy kolejno dane*. Wszystkie spacje są ignorowane i czytamy dane do odpowiednich tablic.
-- na końcu zwiększamy zmienną *i* aby kolejne dane były wpisane do następnego miejsca w tablicach.
+- Wiemy, że mamy trzech pracowników, dlatego też tworzymy zmienną "pracownicy" żeby nie pisać wszędzie 3 (przy zmianie liczby pracowników zmieniamy tylko jedno przypisanie).
+- Wworzymy tablice na każdy z typów danych: rok, imię, nazwisko oraz stawkę
+- Otwieramy plik, sprawdzamy czy jest otwarty
+- Używamy pętli while do "przechodzenia" po pliku:
+	- Metoda .eof() zwraca koniec pliku
+	- Ale jako, że ją negujemy (wykorzyknik z przodu!) oznacza to, że mówimy kompilatorowi "czytaj linie z pliku dopóki nie napotkasz końca pliku".
+- Wewnątrz pętli *wczytujemy kolejno dane*. Wszystkie spacje są ignorowane i czytamy dane do odpowiednich tablic.
+- Na końcu zwiększamy zmienną *i* aby kolejne dane były wpisane do następnego miejsca w tablicach.
 
 Jak widzicie, operacje na plikach mogą być skomplikowane, dlatego przeczytajcie tę lekcję bardzo uważnie. Ponadto, jeśli macie jeszcze jakieś pytania zachęcam do skorzystania z dodatkowych źródeł zamieszczonych poniżej.
 
-Jeśli jednak chcecie nieco przećwiczyć działania na plikach, polecam zapoznac się z dostępnymi zadankami ;)
+Jeśli jednak chcecie nieco przećwiczyć działania na plikach, polecam zapoznać się z dostępnymi zadankami ;)
 
 <button onclick="if (document.getElementById('exercises').style.display === 'none') {document.getElementById('exercises').style.display = 'block';} else {document.getElementById('exercises').style.display = 'none';}" class="exerciseButton">Zadanka</button>
 

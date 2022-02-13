@@ -153,7 +153,7 @@ int dodawanie(int a, int b);
 ```
 
 To, moi drodzy, jest *deklaracja* funkcji. Mówimy komputerowi, że napiszemy funkcję typu *int*, nazwaliśmy ją „dodawanie” oraz *przyjmuje dwa parametry typu int.* Co to te parametry? No cóż… Pamiętacie lekcję o zasięgu dostępu?<br/>
-Jeśli chcemy aby nasza funkcja pracowała na zmiennych z innej części programu, musimy je *przekazać.* Robimy to właśnie dzięki parametrom!<br/>
+Jeśli chcemy, aby nasza funkcja pracowała na zmiennych z innej części programu, musimy je *przekazać.* Robimy to właśnie dzięki parametrom!<br/>
 No ale, zobaczmy jaka jest *definicja* funkcji.<br/>
 Pamiętajcie: *deklaracja* mówi komputerowi tylko o *istnieniu* funkcji. Naszym zadaniem jest teraz ich *zaimplementowanie.* Robimy to następująco:
 
@@ -198,7 +198,7 @@ Teraz mając pełny obraz programu możemy pomówić o tym, jak działa.<br/>
 Najpierw deklarujemy dwie zmienne w naszym *głównym* programie: „pierwsza” oraz „druga”. Użytkownik wpisuje je, po czym następuje wywołanie funkcji dodawanie. Warto zatrzymać się w tym miejscu i zauważyć kilka rzeczy:
 - funkcja „dodawanie” jest typu *int*. Oznacza to, że *zwraca* ona wartość typu int. Zwracana wartość jest następnie zapisywana do zmiennej „suma” w funkcji main.
 - każda funkcja posiadająca typ inny niż „void” (o nich za chwilkę) coś zwraca, a tę zwracaną wartość można zapisać. Jest to dość przydatna informacja zwłaszcza gdy zastanawiamy się, jakiego typu powinniśmy napisać funkcję.
-- w funkcji main podaliśmy do funkcji „dodawanie” dwa parametry: „pierwsza” oraz „druga”; nie podawaliśmy ich typów jak w przypadku deklaracji (czy definicji; obie muszą być takie same). Deklaracja i definicja wymaga *typu* oraz *nazwy* zmiennych, którymi będzie operować
+- w funkcji main podaliśmy do funkcji „dodawanie” dwa parametry: „pierwsza” oraz „druga”; nie podawaliśmy ich typów, jak w przypadku deklaracji (czy definicji; obie muszą być takie same). Deklaracja i definicja wymaga *typu* oraz *nazwy* zmiennych, którymi będzie operować
 - nazwy zmiennych przy wywołaniu funkcji oraz przy jej deklaracji *nie muszą być takie same!* W funkcji main nazywają się „pierwsza” i „druga”, natomiast w funkcji dodawanie nazywają się „a” i „b”, ale chodzi o te same liczby. Liczy się jedynie kolejność ich wpisywania.
 
 "Okej, rozumiem. Ale... Po co nam deklaracje funkcji, skoro nawet jej nie użyliśmy?"<br/>
@@ -224,7 +224,7 @@ int dodawanie(int a, int b){
 }
 ```
 
-Jak widzicie, na górze *zadeklarowaliśmy* naszą funkcję ```dodawanie()```, natomiast niżej ją *zdefiniowaliśmy.* Co daje nam takie rozwiazanie?<br/>
+Jak widzicie, na górze *zadeklarowaliśmy* naszą funkcję ```dodawanie()```, natomiast niżej ją *zdefiniowaliśmy.* Co daje nam takie rozwiązanie?<br/>
 *Przejrzystość kodu.* Wszystkie deklaracje możemy umieścić na górze, zaraz po nich jest funkcja ```main()```, natomiast później umieszczamy definicje funkcji. Dzięki temu funkcja ```main()``` jest zawsze w tym samym miejscu, zamiast bycia schowaną między innymi funkcjami (zwłaszcza, gdy mamy ich wiele).
 
 **Które z tych pojęć określa 'ciało' funkcji?**

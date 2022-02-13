@@ -146,7 +146,7 @@
 <h2>Lekcja 10: Pętle</h2>
 
 Witajcie ponownie! Dzisiejszy temat: pętle. Dziś mamy dość sporo do omówienia, dlatego też przejdźmy do rzeczy.<br/>
-Pętle wykorzystujemy gdy musimy wykonać jakąś konkretną czynność wiele razy: dodawanie do siebie liczb dopóki nie przekroczymy pewnego progu, modyfikowanie tekstu dopóki nie uzyskamy odpowiedniego efektu… Przykładów może być wiele, dlatego też po prostu przez nie przejdźmy aby dowiedzieć się, na czym polega dzisiejszy temat<br/>
+Pętle wykorzystujemy gdy musimy wykonać jakąś konkretną czynność wiele razy: dodawanie do siebie liczb dopóki nie przekroczymy pewnego progu, modyfikowanie tekstu dopóki nie uzyskamy odpowiedniego efektu… Przykładów może być wiele, dlatego też po prostu przez nie przejdźmy, aby dowiedzieć się, na czym polega dzisiejszy temat<br/>
 Zanim jednak do tego przejdziemy, szczypta teorii. Wyróżniamy *trzy* pętle:
 - while
 - do… while
@@ -185,16 +185,16 @@ for(int i = 0; i < 10; i++){
 }
 ```
 Teraz gdy wiemy już z czym mamy do czynienia, czas zrozumieć co, jak i dlaczego:
-- pętla dzieli się na trzy „segmenty” oddzielone od siebie *średnikiem*
-- pierwszy segment wykonuje się *tylko jeden raz.* Jeśli chcemy używać jakichś zmiennych wewnątrz pętli: to dobry znak aby je zainicjalizować.
-- drugi segment to warunek dla którego powinien wykonać się program
-- trzeci segment wykonuje się *po każdym* przejściu pętli.
+- Pętla dzieli się na trzy „segmenty” oddzielone od siebie *średnikiem.*
+- Pierwszy segment wykonuje się *tylko jeden raz.* Jeśli chcemy używać jakichś zmiennych wewnątrz pętli: to dobry znak aby je zainicjalizować.
+- Drugi segment to warunek dla którego powinien wykonać się program.
+- Trzeci segment wykonuje się *po każdym* przejściu pętli.
 
 Możliwości jakie to przedstawia są wielkie, ale skupmy się na najczęstszym, podstawowym użytkowaniu:
 
-- w pierwszym segmencie inicjujemy zmienną którą będziemy wykorzystywać *tylko* w tej pętli. Będzie ona istniała *tylko* w niej i nie będziemy mogli jej użyć *poza* nią.
-- w drugim segmencie wstawiamy warunek pętli: „pętla ma się wykonywać *dopóki* i jest mniejsze od 10” w naszym przypadku. W momencie kiedy i będzie równe 10 pętla przestanie się wykonywać.
-- w trzecim segmencie mówimy pętli, co ma się wydarzyć po *pojedynczym przejściu* pętli: jest to dobre miejsce aby zwiększyć zmienną której używamy w pętli.
+- W pierwszym segmencie inicjujemy zmienną, którą będziemy wykorzystywać *tylko* w tej pętli. Będzie ona istniała *tylko* w niej i nie będziemy mogli jej użyć *poza* nią.
+- W drugim segmencie wstawiamy warunek pętli: „pętla ma się wykonywać *dopóki* i jest mniejsze od 10” w naszym przypadku. W momencie kiedy i będzie równe 10, pętla przestanie się wykonywać.
+- W trzecim segmencie mówimy pętli, co ma się wydarzyć po *pojedynczym przejściu* pętli: jest to dobre miejsce aby zwiększyć zmienną, której używamy w pętli.
 
 Żeby lepiej zobrazować wam tę pętlę, rozważmy poniższy przykład:
 

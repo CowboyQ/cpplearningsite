@@ -147,7 +147,7 @@
 Witajcie! Dziś zajmiemy się dziedziczeniem w klasach!
 
 Klasy są bardzo obszernym tematem, dlatego wracamy do niego jak bumerang ;)<br/>
-Dziś wyjaśnię wam zasady dziedziczenia, które pozwala nam na korzystanie klasie z metod *innej klasy!*<br/>
+Dziś wyjaśnię wam zasady dziedziczenia, które pozwalają nam na korzystanie klasie z metod *innej klasy!*<br/>
 Przejdźmy jednak do sedna: dziedziczenie pozwala klasie *dziecku* korzystać z metod oraz atrybutów *rodzica.* Nazewnictwo nie jest tu przypadkowe: dzięki odniesieniu do relacji rodzinnych możemy lepiej zrozumieć zasady panujące w dziedziczeniu. No ale mniejsza z tym, przejdźmy do kodu ;)
 
 ```c
@@ -180,7 +180,7 @@ Zobaczmy, co dzieje się w kodzie:
 - oznacza to, że obiekt klasy *Auto* może używać metod klasy Pojazd (oraz ma dostęp do atrybutów klasy Pojazd).
 
 Jest to bardzo użyteczne, gdyż dobrze napisana metoda w klasie rodzica może być później wykorzystywana przez dzieci bez konieczności przepisywania takiego samego kodu kilka razy :)<br/>
-Zabawa nie kończy się jednak w na jednej klasie!<br/>
+Zabawa nie kończy się jednak na jednej klasie!<br/>
 Dziedziczenie działa wielopoziomowo (jeśli tylko tego chcemy). Zobaczcie:
 
 ```c
@@ -217,7 +217,7 @@ Warto też wspomnieć, że klasa może również dziedziczyć po *wielu* innych 
 class Model: public Pojazd, public Auto{ … }
 ```
 
-Ponownie jednak, należy zachować ostrożność i przemyśleć, gdzie i w jakim stopniu chcemy aby występowało dziedziczenie między klasami :)<br/>
+Ponownie jednak, należy zachować ostrożność i przemyśleć, gdzie i w jakim stopniu chcemy, aby występowało dziedziczenie między klasami :)<br/>
 Jak do tej pory widzieliście, używaliśmy jedynie modyfikatora “public”, aby ułatwić zrozumienie zasad panujących w dziedziczeniu. Co jednak z innymi modyfikatorami?
 - modyfikator public, jak wiecie, pozwala na pełen dostęp do atrybutów oraz metod.
 - modyfikator private *nie pozwala* na odczyt lub zapis *klasie podrzędnej.* Oznacza to, że jeśli klasa Auto jest dzieckiem klasy Pojazd, natomiast klasa Pojazd ma pola (lub metody) private, to klasa Auto **nie ma dostępu** do tych atrybutów oraz metod.
@@ -268,7 +268,7 @@ int main(){
 Po przeanalizowaniu powyższego kodu możecie być nieco zdziwieni.<br/>
 „Mamy dostęp do atrybutów protected, ale do metod już nie?”.
 
-No cóż… Dokładnie tak! Dlatego też pisząc kod metody powinny być albo publiczne, albo prywatne: metody napisane z modyfikatorem „protected” będą niedostępne dla klas dziedziczących więc nie ma sensu ich tam wstawiać ;)
+No cóż… Dokładnie tak! Dlatego też pisząc kod, metody powinny być albo publiczne, albo prywatne: metody napisane z modyfikatorem „protected” będą niedostępne dla klas dziedziczących, więc nie ma sensu ich tam wstawiać ;)
 
 **Do metod jakiego typu nie mamy dostępu?**
 <form> 

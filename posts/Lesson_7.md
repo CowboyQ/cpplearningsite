@@ -146,7 +146,7 @@
 <h2>Lekcja 7: Typy danych w C++</h2>
 
 Witajcie ponownie! Dziś pomówimy o typach danych w C++!
-Niektórzy z was mogą spytać „Zaraz… czy nie mieliśmy już takiego tematu?”
+Niektórzy z was mogą spytać „Zaraz… czy nie mieliśmy już takiego tematu?”.
 Jeszcze jak! Teraz jednak gdy wiecie *jakie* mamy typy danych czas nauczyć się, jak je *zaimplementować* w programie.
 Przechodząc jednak do kodu, zadeklarujmy kilka zmiennych żeby zobaczyć, o co w tym wszystkim chodzi :)
 
@@ -243,7 +243,7 @@ int main(){
 Jaki uzyskamy wynik tym razem?
 [insert form]
 Dokładnie! Wynik to już solidne 8.5, ponieważ zmienna przechowująca sumę jest typu *float,* więc może przechować część dziesiętną :)
-„Okej, ale powiedział Pan że możemy równie dobrze nie potrzebować zmiennej ‘suma’… czy to prawda?”
+„Okej, ale powiedział Pan że możemy równie dobrze nie potrzebować zmiennej ‘suma’… czy to prawda?”.
 Jeszcze jak!
 Na dobrą sprawę możemy skrócić nasz program i wypisać wynik od razu na wyjście:
 

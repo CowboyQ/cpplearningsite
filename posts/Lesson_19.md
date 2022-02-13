@@ -295,7 +295,7 @@ if(document.getElementById('op4').checked || document.getElementById('op5').chec
 
 <p id="answer2" class="exercise" style="display:none;"></p>
 
-Jak widzicie, metoda ```honk()``` działa teraz w zależności od tego *jaki typ do niej przypiszemy* zamiast tego *jakiego typu jest wskaźnik.*<br/>
+Jak widzicie, metoda ```honk()``` działa teraz w zależności od tego, *jaki typ do niej przypiszemy*, zamiast tego, *jakiego typu jest wskaźnik.*<br/>
 Jest to bardzo wygodne rozwiązanie, jednak warto używać go z ostrożnością, gdyż program może stracić na szybkości (ze względu na zajmowane przez takie funkcje miejsce).
 
 Polimorfizm nie jest niczym strasznym, jak sami się o tym przed chwilą przekonaliście. Warto z niego korzystać, jednak pamietajcie: "z wielką mocą przychodzi wielka odpowiedzialność" ;)

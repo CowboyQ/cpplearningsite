@@ -30,7 +30,7 @@ const Courses = ({ courses }) => {
                         course.type == 1 ?
                         <Link href={'/courses/' + course.id} key={course.id}>
                             <a className={styles.single}>
-                                <h3>{course.postNo}. {course.title}</h3>
+                                <h3>{course.title}</h3>
                             </a>
                         </Link>
                             :
@@ -46,7 +46,7 @@ const Courses = ({ courses }) => {
                         course.type == 2 ?
                         <Link href={'/courses/' + course.id} key={course.id}>
                             <a className={styles.single}>
-                                <h3>{course.postNo}. {course.title}</h3>
+                                <h3>{course.title}</h3>
                             </a>
                         </Link>
                             :
@@ -62,7 +62,7 @@ const Courses = ({ courses }) => {
                         course.type == 3 ?
                         <Link href={'/courses/' + course.id} key={course.id}>
                             <a className={styles.single}>
-                                <h3>{course.postNo}. {course.title}</h3>
+                                <h3>{course.title}</h3>
                             </a>
                         </Link>
                             :

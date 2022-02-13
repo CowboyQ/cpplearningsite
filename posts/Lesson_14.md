@@ -183,10 +183,10 @@ int main(){
 ```
 
 Żeby pracować na klasach potrzebujemy *zmiennych typu Osoba.* Takie zmienne nazywamy **obiektami.** Rozumiem, że jest to dość abstrakcyjna koncepcja, dlatego przejdźmy przez to jeszcze raz:
-- tworzymy *klasę* która posiada w sobie *zmienne*
-- klasa jest *nowym*, stworzonym przez nas *typem danych*
-- jeśli klasa jest tylko *typem* danych, to potrzebujemy *zmiennych* tego typu aby na nich pracować
-- zmienne które odnoszą się do klasy nazywamy **obiektami**
+- tworzymy *klasę*, która posiada w sobie *zmienne*.
+- klasa jest *nowym*, stworzonym przez nas *typem danych*.
+- jeśli klasa jest tylko *typem* danych, to potrzebujemy *zmiennych* tego typu aby na nich pracować.
+- zmienne, które odnoszą się do klasy nazywamy **obiektami**.
 
 Podobnie jak „int” reprezentuje liczbę całkowitą, „float” liczbę zmiennoprzecinkową, „Osoba” reprezentuje (w bardzo uproszczony sposób) pewną osobę. Każdy z nas ma wiek oraz imię, które możemy przedstawić jako uproszczony typ danych (kolejno int oraz string).<br/>
 Analogicznie możemy stworzyć klasę „Pies”:
@@ -237,7 +237,7 @@ class Samochod{
 }
 ```
 
-Zobaczcie sami: obiekty klasy mogą służyć za *zmienne wewnątrz innej klasy.* Dzięki takiemu rozwiązaniu możemy szczegółowo opisywać świat, dodając tak wiele parametrów jak tylko to potrzebne!<br/>
+Zobaczcie sami: obiekty klasy mogą służyć za *zmienne wewnątrz innej klasy.* Dzięki takiemu rozwiązaniu możemy szczegółowo opisywać świat, dodając tak wiele parametrów, jak tylko to potrzebne!<br/>
 Oczywiście, koniec końców każdy z nich rozłożony jest na najbardziej elementarne z czynników: opisujemy je liczbami oraz napisami. To, czego nie możemy w ten sposób opisać rozbijamy na kolejne klasy i ich atrybuty.<br/>
 Pamiętajcie jednak: jest to jedynie *możliwość.* Nie musicie rozkładać klasy „Silnik” do każdej pojedynczej śrubki ;)<br/>
 Wszystko zależy od tego jakiej dokładności potrzebujecie; na potrzeby tego kursu opisanie silnika za pomocą pojemności i marki w zupełności wystarczy. Niemniej jednak w dużych projektach złożoność może być o wiele bardziej skomplikowana.<br/>

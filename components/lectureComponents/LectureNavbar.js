@@ -10,6 +10,12 @@ const LectureNavbar = () => {
                 <Link href="/">
                     Strona Główna
                 </Link>
+                <Link href="/about">
+                    O kursie
+                </Link>
+                <Link href="/contact">
+                    Kontakt
+                </Link>
             </div>
             
         </nav>

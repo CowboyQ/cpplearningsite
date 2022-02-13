@@ -1,4 +1,3 @@
-import Markdown from 'markdown-to-jsx';
 import React, {useState, useEffect} from 'react'
 import { getSortedPostsData, getPostData } from '../../lib/posts';
 import Lecture from '../../components/Lecture';

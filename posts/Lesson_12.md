@@ -175,7 +175,7 @@ Gdyż zmienna wskaźnikowa wskazuje **miejsce**, w którym znajduje się zmienna
 <img src="https://firebasestorage.googleapis.com/v0/b/cpplearningsite01.appspot.com/o/img%2F04.png?alt=media" alt="screenshot" style="display: block; margin: 0 auto; width: 50%;"/>
 
 To, moi drodzy, jest *adres w pamięci* naszej zmiennej ```a```.<br/>
-"No dobrze, ale po co nam wiedzieć w którym miejscu w pamięci jest jakaś zmienna?".<br/>
+"No dobrze, ale po co nam wiedzieć, w którym miejscu w pamięci jest jakaś zmienna?".<br/>
 Spieszę z odpowiedzią: *funkcje.*<br/>
 Gdy na następnej lekcji poznacie jak je zapisujemy, zauważycie, że wewnątrz funkcji pracujemy na *kopii* zmiennej. Wskaźniki natomiast umożliwiają nam pracę na *konkretnej zmiennej zamiast na kopii.* Jest to niesamowicie użyteczne przy okazji przesyłania do funkcji tablic, gdyż możemy stworzyć wskaźnik do danej tablicy i przesłać go do funkcji.<br/>
 Nie musimy z tym jednak czekać aż do przyszłego tematu, dlatego pokażę wam jak to działa już teraz!
