@@ -1,3 +1,37 @@
+## CowboyQ's Learning Playground
+
+This website was created as a part of my Engineer Project.
+It makes use of the default Next.js app; I modified the logic behind it and now it serves as a site with a C++ course.
+All the lessons were written by yours truly.
+
+To get it going locally, you need:
+
+[Emotion react / styled](https://emotion.sh/docs/@emotion/styled)
+
+[Mui lab / material](https://mui.com/components/about-the-lab/)
+
+[Gray-matter](https://www.npmjs.com/package/gray-matter)
+
+[markdown-to-jsx](https://www.npmjs.com/package/markdown-to-jsx)
+
+[rehype-raw](https://www.npmjs.com/package/rehype-raw)
+
+[rehype-stringify](https://www.npmjs.com/package/rehype-stringify)
+
+[remark-rehype](https://www.npmjs.com/package/remark-rehype)
+
+As for license, this project was created under MIT License and should be distributed under such.
+I hope this project helps someone who may one day need it.
+If you have any questions, please contat me.
+
+Below I leave the initial Readme from Next.js, maybe it'll serve you some purpose.
+
+And yes, I know that the CSS *really* needs a rework.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
